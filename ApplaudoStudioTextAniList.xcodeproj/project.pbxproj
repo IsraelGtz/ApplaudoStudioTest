@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCB93F4D1EE27B6D00967CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB93F4C1EE27B6D00967CB2 /* AppDelegate.swift */; };
+		FCB93F4F1EE27B6D00967CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB93F4E1EE27B6D00967CB2 /* ViewController.swift */; };
+		FCB93F521EE27B6D00967CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB93F501EE27B6D00967CB2 /* Main.storyboard */; };
+		FCB93F551EE27B6D00967CB2 /* ApplaudoStudioTextAniList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCB93F531EE27B6D00967CB2 /* ApplaudoStudioTextAniList.xcdatamodeld */; };
+		FCB93F571EE27B6D00967CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB93F561EE27B6D00967CB2 /* Assets.xcassets */; };
+		FCB93F5A1EE27B6D00967CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB93F581EE27B6D00967CB2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCB93F491EE27B6D00967CB2 /* ApplaudoStudioTextAniList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplaudoStudioTextAniList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB93F4C1EE27B6D00967CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCB93F4E1EE27B6D00967CB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCB93F511EE27B6D00967CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCB93F541EE27B6D00967CB2 /* ApplaudoStudioTextAniList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ApplaudoStudioTextAniList.xcdatamodel; sourceTree = "<group>"; };
+		FCB93F561EE27B6D00967CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCB93F591EE27B6D00967CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCB93F5B1EE27B6D00967CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCB93F461EE27B6D00967CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCB93F401EE27B6D00967CB2 = {
+			isa = PBXGroup;
+			children = (
+				FCB93F4B1EE27B6D00967CB2 /* ApplaudoStudioTextAniList */,
+				FCB93F4A1EE27B6D00967CB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCB93F4A1EE27B6D00967CB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCB93F491EE27B6D00967CB2 /* ApplaudoStudioTextAniList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCB93F4B1EE27B6D00967CB2 /* ApplaudoStudioTextAniList */ = {
+			isa = PBXGroup;
+			children = (
+				FCB93F4C1EE27B6D00967CB2 /* AppDelegate.swift */,
+				FCB93F4E1EE27B6D00967CB2 /* ViewController.swift */,
+				FCB93F501EE27B6D00967CB2 /* Main.storyboard */,
+				FCB93F561EE27B6D00967CB2 /* Assets.xcassets */,
+				FCB93F581EE27B6D00967CB2 /* LaunchScreen.storyboard */,
+				FCB93F5B1EE27B6D00967CB2 /* Info.plist */,
+				FCB93F531EE27B6D00967CB2 /* ApplaudoStudioTextAniList.xcdatamodeld */,
+			);
+			path = ApplaudoStudioTextAniList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCB93F481EE27B6D00967CB2 /* ApplaudoStudioTextAniList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB93F5E1EE27B6D00967CB2 /* Build configuration list for PBXNativeTarget "ApplaudoStudioTextAniList" */;
+			buildPhases = (
+				FCB93F451EE27B6D00967CB2 /* Sources */,
+				FCB93F461EE27B6D00967CB2 /* Frameworks */,
+				FCB93F471EE27B6D00967CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApplaudoStudioTextAniList;
+			productName = ApplaudoStudioTextAniList;
+			productReference = FCB93F491EE27B6D00967CB2 /* ApplaudoStudioTextAniList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCB93F411EE27B6D00967CB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Israel Gutierrez";
+				TargetAttributes = {
+					FCB93F481EE27B6D00967CB2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FCB93F441EE27B6D00967CB2 /* Build configuration list for PBXProject "ApplaudoStudioTextAniList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCB93F401EE27B6D00967CB2;
+			productRefGroup = FCB93F4A1EE27B6D00967CB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCB93F481EE27B6D00967CB2 /* ApplaudoStudioTextAniList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCB93F471EE27B6D00967CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB93F5A1EE27B6D00967CB2 /* LaunchScreen.storyboard in Resources */,
+				FCB93F571EE27B6D00967CB2 /* Assets.xcassets in Resources */,
+				FCB93F521EE27B6D00967CB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCB93F451EE27B6D00967CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB93F4F1EE27B6D00967CB2 /* ViewController.swift in Sources */,
+				FCB93F4D1EE27B6D00967CB2 /* AppDelegate.swift in Sources */,
+				FCB93F551EE27B6D00967CB2 /* ApplaudoStudioTextAniList.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCB93F501EE27B6D00967CB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCB93F511EE27B6D00967CB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCB93F581EE27B6D00967CB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCB93F591EE27B6D00967CB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCB93F5C1EE27B6D00967CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCB93F5D1EE27B6D00967CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCB93F5F1EE27B6D00967CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ApplaudoStudioTextAniList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ApplaudoTest.ApplaudoStudioTextAniList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FCB93F601EE27B6D00967CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ApplaudoStudioTextAniList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ApplaudoTest.ApplaudoStudioTextAniList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCB93F441EE27B6D00967CB2 /* Build configuration list for PBXProject "ApplaudoStudioTextAniList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB93F5C1EE27B6D00967CB2 /* Debug */,
+				FCB93F5D1EE27B6D00967CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCB93F5E1EE27B6D00967CB2 /* Build configuration list for PBXNativeTarget "ApplaudoStudioTextAniList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB93F5F1EE27B6D00967CB2 /* Debug */,
+				FCB93F601EE27B6D00967CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FCB93F531EE27B6D00967CB2 /* ApplaudoStudioTextAniList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FCB93F541EE27B6D00967CB2 /* ApplaudoStudioTextAniList.xcdatamodel */,
+			);
+			currentVersion = FCB93F541EE27B6D00967CB2 /* ApplaudoStudioTextAniList.xcdatamodel */;
+			path = ApplaudoStudioTextAniList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FCB93F411EE27B6D00967CB2 /* Project object */;
+}
