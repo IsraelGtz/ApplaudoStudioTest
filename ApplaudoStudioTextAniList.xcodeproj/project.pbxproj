@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E38B9BD4A54BB1A5593BE4F /* Pods_ApplaudoStudioTextAniList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5D6DC4FEF09E1C44C9961D /* Pods_ApplaudoStudioTextAniList.framework */; };
 		FCB93F4D1EE27B6D00967CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB93F4C1EE27B6D00967CB2 /* AppDelegate.swift */; };
 		FCB93F4F1EE27B6D00967CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB93F4E1EE27B6D00967CB2 /* ViewController.swift */; };
-		FCB93F521EE27B6D00967CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB93F501EE27B6D00967CB2 /* Main.storyboard */; };
 		FCB93F551EE27B6D00967CB2 /* ApplaudoStudioTextAniList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCB93F531EE27B6D00967CB2 /* ApplaudoStudioTextAniList.xcdatamodeld */; };
 		FCB93F571EE27B6D00967CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB93F561EE27B6D00967CB2 /* Assets.xcassets */; };
 		FCB93F5A1EE27B6D00967CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB93F581EE27B6D00967CB2 /* LaunchScreen.storyboard */; };
+		FCB93F621EE27B9C00967CB2 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB93F611EE27B9C00967CB2 /* SplashViewController.swift */; };
+		FCF12B0C1EE2814000BAC1FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF12B0B1EE2814000BAC1FA /* LoginViewController.swift */; };
+		FCF12B0F1EE2825B00BAC1FA /* CustomTextFieldWithTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF12B0E1EE2825B00BAC1FA /* CustomTextFieldWithTitleView.swift */; };
+		FCF12B121EE282F000BAC1FA /* UtilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF12B111EE282F000BAC1FA /* UtilityManager.swift */; };
+		FCF12B141EE2830C00BAC1FA /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF12B131EE2830C00BAC1FA /* ServerManager.swift */; };
+		FCF12B161EE2865900BAC1FA /* ConstantsTextOfViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF12B151EE2865900BAC1FA /* ConstantsTextOfViewControllers.swift */; };
+		FCF12B181EE2870400BAC1FA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF12B171EE2870400BAC1FA /* Extensions.swift */; };
+		FCF12B1C1EE2882600BAC1FA /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF12B1B1EE2882600BAC1FA /* MainTabBarController.swift */; };
+		FCF12B1E1EE2887C00BAC1FA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF12B1D1EE2887C00BAC1FA /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF5D6DC4FEF09E1C44C9961D /* Pods_ApplaudoStudioTextAniList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApplaudoStudioTextAniList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8C4180274A7C354979E398 /* Pods-ApplaudoStudioTextAniList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplaudoStudioTextAniList.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApplaudoStudioTextAniList/Pods-ApplaudoStudioTextAniList.release.xcconfig"; sourceTree = "<group>"; };
+		D694FAC8A8BCCCFB897F6301 /* Pods-ApplaudoStudioTextAniList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplaudoStudioTextAniList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApplaudoStudioTextAniList/Pods-ApplaudoStudioTextAniList.debug.xcconfig"; sourceTree = "<group>"; };
 		FCB93F491EE27B6D00967CB2 /* ApplaudoStudioTextAniList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplaudoStudioTextAniList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB93F4C1EE27B6D00967CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCB93F4E1EE27B6D00967CB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FCB93F511EE27B6D00967CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCB93F541EE27B6D00967CB2 /* ApplaudoStudioTextAniList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ApplaudoStudioTextAniList.xcdatamodel; sourceTree = "<group>"; };
 		FCB93F561EE27B6D00967CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCB93F591EE27B6D00967CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCB93F5B1EE27B6D00967CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB93F611EE27B9C00967CB2 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		FCF12B0B1EE2814000BAC1FA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FCF12B0E1EE2825B00BAC1FA /* CustomTextFieldWithTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextFieldWithTitleView.swift; sourceTree = "<group>"; };
+		FCF12B111EE282F000BAC1FA /* UtilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityManager.swift; sourceTree = "<group>"; };
+		FCF12B131EE2830C00BAC1FA /* ServerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		FCF12B151EE2865900BAC1FA /* ConstantsTextOfViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsTextOfViewControllers.swift; sourceTree = "<group>"; };
+		FCF12B171EE2870400BAC1FA /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FCF12B1B1EE2882600BAC1FA /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		FCF12B1D1EE2887C00BAC1FA /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,19 +51,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E38B9BD4A54BB1A5593BE4F /* Pods_ApplaudoStudioTextAniList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18D265DD6FACA8135E735898 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF5D6DC4FEF09E1C44C9961D /* Pods_ApplaudoStudioTextAniList.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F854E7A6E682C57F9E893475 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D694FAC8A8BCCCFB897F6301 /* Pods-ApplaudoStudioTextAniList.debug.xcconfig */,
+				BE8C4180274A7C354979E398 /* Pods-ApplaudoStudioTextAniList.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FCB93F401EE27B6D00967CB2 = {
 			isa = PBXGroup;
 			children = (
 				FCB93F4B1EE27B6D00967CB2 /* ApplaudoStudioTextAniList */,
 				FCB93F4A1EE27B6D00967CB2 /* Products */,
+				F854E7A6E682C57F9E893475 /* Pods */,
+				18D265DD6FACA8135E735898 /* Frameworks */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		FCB93F4A1EE27B6D00967CB2 /* Products */ = {
 			isa = PBXGroup;
@@ -57,14 +99,38 @@
 			isa = PBXGroup;
 			children = (
 				FCB93F4C1EE27B6D00967CB2 /* AppDelegate.swift */,
+				FCB93F611EE27B9C00967CB2 /* SplashViewController.swift */,
+				FCF12B1B1EE2882600BAC1FA /* MainTabBarController.swift */,
+				FCF12B0B1EE2814000BAC1FA /* LoginViewController.swift */,
+				FCF12B1D1EE2887C00BAC1FA /* ProfileViewController.swift */,
 				FCB93F4E1EE27B6D00967CB2 /* ViewController.swift */,
-				FCB93F501EE27B6D00967CB2 /* Main.storyboard */,
+				FCF12B0D1EE2824400BAC1FA /* Views */,
+				FCF12B101EE282DC00BAC1FA /* Manager */,
+				FCF12B151EE2865900BAC1FA /* ConstantsTextOfViewControllers.swift */,
+				FCF12B171EE2870400BAC1FA /* Extensions.swift */,
 				FCB93F561EE27B6D00967CB2 /* Assets.xcassets */,
 				FCB93F581EE27B6D00967CB2 /* LaunchScreen.storyboard */,
 				FCB93F5B1EE27B6D00967CB2 /* Info.plist */,
 				FCB93F531EE27B6D00967CB2 /* ApplaudoStudioTextAniList.xcdatamodeld */,
 			);
 			path = ApplaudoStudioTextAniList;
+			sourceTree = "<group>";
+		};
+		FCF12B0D1EE2824400BAC1FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCF12B0E1EE2825B00BAC1FA /* CustomTextFieldWithTitleView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FCF12B101EE282DC00BAC1FA /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FCF12B111EE282F000BAC1FA /* UtilityManager.swift */,
+				FCF12B131EE2830C00BAC1FA /* ServerManager.swift */,
+			);
+			name = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCB93F5E1EE27B6D00967CB2 /* Build configuration list for PBXNativeTarget "ApplaudoStudioTextAniList" */;
 			buildPhases = (
+				BA10B0C4E3E569944F2D558C /* [CP] Check Pods Manifest.lock */,
 				FCB93F451EE27B6D00967CB2 /* Sources */,
 				FCB93F461EE27B6D00967CB2 /* Frameworks */,
 				FCB93F471EE27B6D00967CB2 /* Resources */,
+				6DC79D0C8DB376785828A0D3 /* [CP] Embed Pods Frameworks */,
+				1A54E8A902E384DD4A6E07C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,34 +197,82 @@
 			files = (
 				FCB93F5A1EE27B6D00967CB2 /* LaunchScreen.storyboard in Resources */,
 				FCB93F571EE27B6D00967CB2 /* Assets.xcassets in Resources */,
-				FCB93F521EE27B6D00967CB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A54E8A902E384DD4A6E07C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApplaudoStudioTextAniList/Pods-ApplaudoStudioTextAniList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DC79D0C8DB376785828A0D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApplaudoStudioTextAniList/Pods-ApplaudoStudioTextAniList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA10B0C4E3E569944F2D558C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FCB93F451EE27B6D00967CB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF12B141EE2830C00BAC1FA /* ServerManager.swift in Sources */,
 				FCB93F4F1EE27B6D00967CB2 /* ViewController.swift in Sources */,
+				FCF12B1C1EE2882600BAC1FA /* MainTabBarController.swift in Sources */,
 				FCB93F4D1EE27B6D00967CB2 /* AppDelegate.swift in Sources */,
+				FCF12B0F1EE2825B00BAC1FA /* CustomTextFieldWithTitleView.swift in Sources */,
 				FCB93F551EE27B6D00967CB2 /* ApplaudoStudioTextAniList.xcdatamodeld in Sources */,
+				FCF12B1E1EE2887C00BAC1FA /* ProfileViewController.swift in Sources */,
+				FCF12B181EE2870400BAC1FA /* Extensions.swift in Sources */,
+				FCF12B121EE282F000BAC1FA /* UtilityManager.swift in Sources */,
+				FCF12B161EE2865900BAC1FA /* ConstantsTextOfViewControllers.swift in Sources */,
+				FCF12B0C1EE2814000BAC1FA /* LoginViewController.swift in Sources */,
+				FCB93F621EE27B9C00967CB2 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FCB93F501EE27B6D00967CB2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FCB93F511EE27B6D00967CB2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FCB93F581EE27B6D00967CB2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -260,6 +377,7 @@
 		};
 		FCB93F5F1EE27B6D00967CB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D694FAC8A8BCCCFB897F6301 /* Pods-ApplaudoStudioTextAniList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ApplaudoStudioTextAniList/Info.plist;
@@ -272,6 +390,7 @@
 		};
 		FCB93F601EE27B6D00967CB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE8C4180274A7C354979E398 /* Pods-ApplaudoStudioTextAniList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ApplaudoStudioTextAniList/Info.plist;
@@ -301,6 +420,7 @@
 				FCB93F601EE27B6D00967CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
