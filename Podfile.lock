@@ -1,15 +1,18 @@
 PODS:
   - Alamofire (4.4.0)
+  - p2.OAuth2 (3.0.0)
   - YouTubePlayer (0.3.0)
 
 DEPENDENCIES:
   - Alamofire (= 4.4.0)
+  - p2.OAuth2 (= 3.0)
   - YouTubePlayer (= 0.3.0)
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  p2.OAuth2: a8f96ecad6a46189b9b193691fea401139e43491
   YouTubePlayer: 88713a96c356f2c88da8925eb61438eda88bcd57
 
-PODFILE CHECKSUM: 3ab1eb1794a834d5d0ceb97703001e08d96d1114
+PODFILE CHECKSUM: b726f018a27e62c214197b6aea4b26fe81f7269f
 
 COCOAPODS: 1.2.0

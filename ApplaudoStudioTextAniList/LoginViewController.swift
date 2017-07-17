@@ -2,7 +2,7 @@
 //  LoginViewController.swift
 //  ApplaudoStudioTextAniList
 //
-//  Created by Alejandro Aristi C on 03/06/17.
+//  Created by Israel Gutierrez on 03/06/17.
 //  Copyright © 2017 Israel Gutierrez. All rights reserved.
 //
 
@@ -14,7 +14,6 @@ class LoginViewController: UIViewController {
   private var logoImageView: UIImageView! = nil
   private var emailTextField: CustomTextFieldWithTitleView! = nil
   private var passwordTextField: CustomTextFieldWithTitleView! = nil
-  private var missedPasswordButton: UIButton! = nil
   private var loginButton: UIButton! = nil
   
   override func loadView() {
@@ -22,7 +21,7 @@ class LoginViewController: UIViewController {
     self.view = UIView.init(frame: UIScreen.main.bounds)
     self.view.backgroundColor = UIColor.white //UIColor.init(patternImage: UIImage.init(named: "fondo_login")!)
     
-    let backgroundImageName = ""
+//    let backgroundImageName = ""
     
 //    if UtilityManager.sharedInstance.isIpad() == true {
 //      
@@ -30,10 +29,10 @@ class LoginViewController: UIViewController {
 //      
 //    }
     
-    let imageViewBackground = UIImageView.init(image: UIImage.init(named: backgroundImageName)!)
-    imageViewBackground.contentMode = .scaleToFill
-    imageViewBackground.frame = self.view.frame
-    self.view.addSubview(imageViewBackground)
+//    let imageViewBackground = UIImageView.init(image: UIImage.init(named: backgroundImageName)!)
+//    imageViewBackground.contentMode = .scaleToFill
+//    imageViewBackground.frame = self.view.frame
+//    self.view.addSubview(imageViewBackground)
     
     self.initInterface()
     
@@ -142,7 +141,7 @@ class LoginViewController: UIViewController {
     loginButton.sizeToFit()
     
     let frameForButton = CGRect.init(x: 20.0 * UtilityManager.sharedInstance.conversionWidth,
-                                     y: missedPasswordButton.frame.origin.y + missedPasswordButton.frame.size.height + (10.0 * UtilityManager.sharedInstance.conversionHeight),
+                                     y: passwordTextField.frame.origin.y + passwordTextField.frame.size.height + (20.0 * UtilityManager.sharedInstance.conversionHeight),
                                      width: UIScreen.main.bounds.size.width - (40.0 * UtilityManager.sharedInstance.conversionWidth),
                                      height: 44.0 * UtilityManager.sharedInstance.conversionHeight)
     
@@ -179,22 +178,22 @@ class LoginViewController: UIViewController {
         
       } else {
         
-        UtilityManager.sharedInstance.showLoader()
-        
-        ServerManager.sharedInstance.requestToLogin(mail: emailTextField.mainTextField.text!,
-                                                    password: passwordTextField.mainTextField.text!,
-                                                    actionsToMakeWhenSucceeded: { (json) in
-                                                      
-                                                      UtilityManager.sharedInstance.hideLoader()
-                                                      
-                                                      self.initAndChangeRootToMainTabBarController()
-                                                      
-        },
-                                                    actionsToMakeWhenFailed: {
-                                                      
-                                                      UtilityManager.sharedInstance.hideLoader()
-                                                      
-        })
+//        UtilityManager.sharedInstance.showLoader()
+//        
+//        ServerManager.sharedInstance.requestToLogin(mail: emailTextField.mainTextField.text!,
+//                                                    password: passwordTextField.mainTextField.text!,
+//                                                    actionsToMakeWhenSucceeded: { (json) in
+//                                                      
+//                                                      UtilityManager.sharedInstance.hideLoader()
+//                                                      
+//                                                      self.initAndChangeRootToMainTabBarController()
+//                                                      
+//        },
+//                                                    actionsToMakeWhenFailed: {
+//                                                      
+//                                                      UtilityManager.sharedInstance.hideLoader()
+//                                                      
+//        })
         
     }
     

@@ -6,16 +6,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ApplaudoStudioTextAniList/LoginViewController.swift"
-            timestampString = "518162230.54963"
+            filePath = "ApplaudoStudioTextAniList/ServerManager.swift"
+            timestampString = "521960270.690355"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "154"
-            endingLineNumber = "154"
-            landmarkName = "loginButtonPressed()"
+            startingLineNumber = "282"
+            endingLineNumber = "282"
+            landmarkName = "requestForGetAllSeries(actionsToMakeWhenSucceeded:actionsToMakeWhenFailed:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ApplaudoStudioTextAniList/ServerManager.swift"
+            timestampString = "521963221.73216"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "297"
+            endingLineNumber = "297"
+            landmarkName = "requestForGetAllSeries(actionsToMakeWhenSucceeded:actionsToMakeWhenFailed:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +41,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ApplaudoStudioTextAniList/ServerManager.swift"
-            timestampString = "518164111.699905"
+            filePath = "ApplaudoStudioTextAniList/SplashViewController.swift"
+            timestampString = "522004579.496977"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "147"
-            endingLineNumber = "147"
-            landmarkName = "requestDataFromActualCompany(actionsToMakeWhenSucceeded:actionsToMakeWhenFailed:)"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -41,13 +57,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ApplaudoStudioTextAniList/ServerManager.swift"
-            timestampString = "518164112.678622"
+            filePath = "ApplaudoStudioTextAniList/SplashViewController.swift"
+            timestampString = "522004579.496977"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "146"
-            endingLineNumber = "146"
-            landmarkName = "requestDataFromActualCompany(actionsToMakeWhenSucceeded:actionsToMakeWhenFailed:)"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "insert(arrayOfSeries:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -57,13 +73,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ApplaudoStudioTextAniList/ServerManager.swift"
-            timestampString = "518164113.364741"
+            filePath = "ApplaudoStudioTextAniList/SplashViewController.swift"
+            timestampString = "522004579.496977"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "149"
-            endingLineNumber = "149"
-            landmarkName = "requestDataFromActualCompany(actionsToMakeWhenSucceeded:actionsToMakeWhenFailed:)"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -73,13 +89,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ApplaudoStudioTextAniList/ServerManager.swift"
-            timestampString = "518164116.23368"
+            filePath = "ApplaudoStudioTextAniList/SplashViewController.swift"
+            timestampString = "522004579.496977"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "152"
-            endingLineNumber = "152"
-            landmarkName = "requestDataFromActualCompany(actionsToMakeWhenSucceeded:actionsToMakeWhenFailed:)"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

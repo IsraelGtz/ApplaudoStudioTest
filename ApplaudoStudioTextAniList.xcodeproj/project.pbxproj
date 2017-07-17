@@ -8,8 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1E38B9BD4A54BB1A5593BE4F /* Pods_ApplaudoStudioTextAniList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5D6DC4FEF09E1C44C9961D /* Pods_ApplaudoStudioTextAniList.framework */; };
+		FC118BF01F1C69F000301D82 /* SerieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC118BEF1F1C69F000301D82 /* SerieViewCell.swift */; };
+		FC118BF21F1C895200301D82 /* SerieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC118BF11F1C895200301D82 /* SerieDetailViewController.swift */; };
+		FC118BF41F1C9A2C00301D82 /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC118BF31F1C9A2C00301D82 /* ImageViewCell.swift */; };
+		FC39FBDD1EE2C1020095135D /* OAuth2RetryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC39FBDC1EE2C1020095135D /* OAuth2RetryHandler.swift */; };
+		FC5EDB471F12ADFE0072608C /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5EDB461F12ADFE0072608C /* UserManager.swift */; };
+		FC5EDB491F12BEB60072608C /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5EDB481F12BEB60072608C /* Serie.swift */; };
+		FC5EDB4B1F12CEDD0072608C /* AllSeriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5EDB4A1F12CEDD0072608C /* AllSeriesViewController.swift */; };
 		FCB93F4D1EE27B6D00967CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB93F4C1EE27B6D00967CB2 /* AppDelegate.swift */; };
-		FCB93F4F1EE27B6D00967CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB93F4E1EE27B6D00967CB2 /* ViewController.swift */; };
 		FCB93F551EE27B6D00967CB2 /* ApplaudoStudioTextAniList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCB93F531EE27B6D00967CB2 /* ApplaudoStudioTextAniList.xcdatamodeld */; };
 		FCB93F571EE27B6D00967CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB93F561EE27B6D00967CB2 /* Assets.xcassets */; };
 		FCB93F5A1EE27B6D00967CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB93F581EE27B6D00967CB2 /* LaunchScreen.storyboard */; };
@@ -28,9 +34,15 @@
 		AF5D6DC4FEF09E1C44C9961D /* Pods_ApplaudoStudioTextAniList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApplaudoStudioTextAniList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8C4180274A7C354979E398 /* Pods-ApplaudoStudioTextAniList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplaudoStudioTextAniList.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApplaudoStudioTextAniList/Pods-ApplaudoStudioTextAniList.release.xcconfig"; sourceTree = "<group>"; };
 		D694FAC8A8BCCCFB897F6301 /* Pods-ApplaudoStudioTextAniList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplaudoStudioTextAniList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApplaudoStudioTextAniList/Pods-ApplaudoStudioTextAniList.debug.xcconfig"; sourceTree = "<group>"; };
+		FC118BEF1F1C69F000301D82 /* SerieViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerieViewCell.swift; sourceTree = "<group>"; };
+		FC118BF11F1C895200301D82 /* SerieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerieDetailViewController.swift; sourceTree = "<group>"; };
+		FC118BF31F1C9A2C00301D82 /* ImageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
+		FC39FBDC1EE2C1020095135D /* OAuth2RetryHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2RetryHandler.swift; sourceTree = "<group>"; };
+		FC5EDB461F12ADFE0072608C /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		FC5EDB481F12BEB60072608C /* Serie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serie.swift; sourceTree = "<group>"; };
+		FC5EDB4A1F12CEDD0072608C /* AllSeriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllSeriesViewController.swift; sourceTree = "<group>"; };
 		FCB93F491EE27B6D00967CB2 /* ApplaudoStudioTextAniList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplaudoStudioTextAniList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB93F4C1EE27B6D00967CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FCB93F4E1EE27B6D00967CB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FCB93F541EE27B6D00967CB2 /* ApplaudoStudioTextAniList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ApplaudoStudioTextAniList.xcdatamodel; sourceTree = "<group>"; };
 		FCB93F561EE27B6D00967CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCB93F591EE27B6D00967CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,10 +112,12 @@
 			children = (
 				FCB93F4C1EE27B6D00967CB2 /* AppDelegate.swift */,
 				FCB93F611EE27B9C00967CB2 /* SplashViewController.swift */,
+				FC5EDB4A1F12CEDD0072608C /* AllSeriesViewController.swift */,
+				FC118BF11F1C895200301D82 /* SerieDetailViewController.swift */,
 				FCF12B1B1EE2882600BAC1FA /* MainTabBarController.swift */,
 				FCF12B0B1EE2814000BAC1FA /* LoginViewController.swift */,
 				FCF12B1D1EE2887C00BAC1FA /* ProfileViewController.swift */,
-				FCB93F4E1EE27B6D00967CB2 /* ViewController.swift */,
+				FC5EDB481F12BEB60072608C /* Serie.swift */,
 				FCF12B0D1EE2824400BAC1FA /* Views */,
 				FCF12B101EE282DC00BAC1FA /* Manager */,
 				FCF12B151EE2865900BAC1FA /* ConstantsTextOfViewControllers.swift */,
@@ -120,6 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				FCF12B0E1EE2825B00BAC1FA /* CustomTextFieldWithTitleView.swift */,
+				FC118BEF1F1C69F000301D82 /* SerieViewCell.swift */,
+				FC118BF31F1C9A2C00301D82 /* ImageViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -128,7 +144,9 @@
 			isa = PBXGroup;
 			children = (
 				FCF12B111EE282F000BAC1FA /* UtilityManager.swift */,
+				FC5EDB461F12ADFE0072608C /* UserManager.swift */,
 				FCF12B131EE2830C00BAC1FA /* ServerManager.swift */,
+				FC39FBDC1EE2C1020095135D /* OAuth2RetryHandler.swift */,
 			);
 			name = Manager;
 			sourceTree = "<group>";
@@ -256,15 +274,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCF12B141EE2830C00BAC1FA /* ServerManager.swift in Sources */,
-				FCB93F4F1EE27B6D00967CB2 /* ViewController.swift in Sources */,
+				FC5EDB471F12ADFE0072608C /* UserManager.swift in Sources */,
 				FCF12B1C1EE2882600BAC1FA /* MainTabBarController.swift in Sources */,
 				FCB93F4D1EE27B6D00967CB2 /* AppDelegate.swift in Sources */,
+				FC5EDB491F12BEB60072608C /* Serie.swift in Sources */,
 				FCF12B0F1EE2825B00BAC1FA /* CustomTextFieldWithTitleView.swift in Sources */,
 				FCB93F551EE27B6D00967CB2 /* ApplaudoStudioTextAniList.xcdatamodeld in Sources */,
 				FCF12B1E1EE2887C00BAC1FA /* ProfileViewController.swift in Sources */,
+				FC39FBDD1EE2C1020095135D /* OAuth2RetryHandler.swift in Sources */,
 				FCF12B181EE2870400BAC1FA /* Extensions.swift in Sources */,
+				FC118BF41F1C9A2C00301D82 /* ImageViewCell.swift in Sources */,
 				FCF12B121EE282F000BAC1FA /* UtilityManager.swift in Sources */,
+				FC118BF21F1C895200301D82 /* SerieDetailViewController.swift in Sources */,
+				FC5EDB4B1F12CEDD0072608C /* AllSeriesViewController.swift in Sources */,
 				FCF12B161EE2865900BAC1FA /* ConstantsTextOfViewControllers.swift in Sources */,
+				FC118BF01F1C69F000301D82 /* SerieViewCell.swift in Sources */,
 				FCF12B0C1EE2814000BAC1FA /* LoginViewController.swift in Sources */,
 				FCB93F621EE27B9C00967CB2 /* SplashViewController.swift in Sources */,
 			);
@@ -385,6 +409,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ApplaudoTest.ApplaudoStudioTextAniList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -398,6 +423,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ApplaudoTest.ApplaudoStudioTextAniList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

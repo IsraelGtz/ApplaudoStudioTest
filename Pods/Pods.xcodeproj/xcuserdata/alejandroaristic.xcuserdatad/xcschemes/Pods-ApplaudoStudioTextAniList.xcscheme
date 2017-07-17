@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "89FE0554263C5782CF2934742A45A2BF"
+               BlueprintIdentifier = "42E687E7C73EE249154808E36F6A7AD9"
                BuildableName = "Pods_ApplaudoStudioTextAniList.framework"
                BlueprintName = "Pods-ApplaudoStudioTextAniList"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "89FE0554263C5782CF2934742A45A2BF"
+            BlueprintIdentifier = "42E687E7C73EE249154808E36F6A7AD9"
             BuildableName = "Pods_ApplaudoStudioTextAniList.framework"
             BlueprintName = "Pods-ApplaudoStudioTextAniList"
             ReferencedContainer = "container:Pods.xcodeproj">

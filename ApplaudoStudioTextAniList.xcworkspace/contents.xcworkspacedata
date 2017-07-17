@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:SerieCD+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:SerieCD+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
       location = "group:ApplaudoStudioTextAniList.xcodeproj">
    </FileRef>
    <FileRef

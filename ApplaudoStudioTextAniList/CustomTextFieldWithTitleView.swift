@@ -2,7 +2,7 @@
 //  CustomTextFieldWithTitleView.swift
 //  ApplaudoStudioTextAniList
 //
-//  Created by Alejandro Aristi C on 03/06/17.
+//  Created by Israel Gutierrez on 03/06/17.
 //  Copyright © 2017 Israel Gutierrez. All rights reserved.
 //
 
@@ -70,7 +70,7 @@ class CustomTextFieldWithTitleView: UIView, UITextFieldDelegate {
       
       titleLabel = UILabel.init(frame: CGRect.zero)
       
-      let font = UIFont.init(name: "SFUIText-Light",
+      let font = UIFont.init(name: "AppleSDGothicNeo-Light",
                              size: 14.0 * UtilityManager.sharedInstance.conversionWidth)
       
       var color = UtilityManager.sharedInstance.labelsAndLinesColor

@@ -2,7 +2,7 @@
 //  UtilityManager.swift
 //  ApplaudoStudioTextAniList
 //
-//  Created by Alejandro Aristi C on 03/06/17.
+//  Created by Israel Gutierrez on 03/06/17.
 //  Copyright © 2017 Israel Gutierrez. All rights reserved.
 //
 
@@ -14,12 +14,12 @@ class UtilityManager: NSObject {
   static let sharedInstance = UtilityManager()
   
   //Conversion Screen
-  static let baseScreen = (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiom.pad ? CGSize.init(width: 768.0, height: 1024.0) : CGSize.init(width: 375.0, height: 667.0))  //CGSize.init(width: 375.0, height: 562.5)
-  static let screenSize = CGSize.init(width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
-  static let frameOfConversion = CGSize.init(width: screenSize.width/baseScreen.width, height: screenSize.height/baseScreen.height)
+  private static var baseScreen = (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiom.pad ? UIDevice.current.orientation == .portrait ? CGSize.init(width: 768.0, height: 1024.0) : CGSize.init(width: 1024.0, height: 768.0) : UIDevice.current.orientation == .portrait ?  CGSize.init(width: 375.0, height: 667.0) :  CGSize.init(width: 667.0, height: 375.0))  //CGSize.init(width: 375.0, height: 562.5)
+  private static var screenSize = CGSize.init(width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
+  private static var frameOfConversion = CGSize.init(width: screenSize.width/baseScreen.width, height: screenSize.height/baseScreen.height)
   
-  let conversionWidth = frameOfConversion.width
-  let conversionHeight = frameOfConversion.height
+  var conversionWidth = frameOfConversion.width
+  var conversionHeight = frameOfConversion.height
   
   //Interface
   let backgroundColorForSearchBar = UIColor.init(red: 51.0/255.0, green: 78.0/255.0, blue: 105.0/255.0, alpha: 1.0)
@@ -43,6 +43,41 @@ class UtilityManager: NSObject {
     let appDelegate: AppDelegate = UIApplication.shared.delegate as! AppDelegate
     let currentViewController: UIViewController = appDelegate.window!.rootViewController!
     return currentViewController
+    
+  }
+  
+  @objc func deviceRotated() {  //(withNotification notification: NSNotification?) {
+    
+//    print("device changed")
+
+    
+//    UtilityManager.baseScreen = CGSize.init(width: UtilityManager.baseScreen.height, height: UtilityManager.baseScreen.width)
+//    UtilityManager.screenSize = CGSize.init(width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
+//    UtilityManager.frameOfConversion = CGSize.init(width: UtilityManager.screenSize.width/UtilityManager.baseScreen.width, height: UtilityManager.screenSize.height/UtilityManager.baseScreen.height)
+    
+    UtilityManager.baseScreen = (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiom.pad ? UIDevice.current.orientation == .portrait ? CGSize.init(width: 768.0, height: 1024.0) : CGSize.init(width: 1024.0, height: 768.0) : UIDevice.current.orientation == .portrait ?  CGSize.init(width: 375.0, height: 667.0) :  CGSize.init(width: 667.0, height: 375.0))
+    UtilityManager.screenSize = CGSize.init(width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
+    UtilityManager.frameOfConversion = CGSize.init(width: UtilityManager.screenSize.width/UtilityManager.baseScreen.width, height: UtilityManager.screenSize.height/UtilityManager.baseScreen.height)
+    
+    if UIDevice.current.orientation == .portrait {
+      
+      print("UtilityManager.frameOfConversion.width = \(UtilityManager.frameOfConversion.width)")
+      print("UtilityManager.frameOfConversion.height = \(UtilityManager.frameOfConversion.height)")
+      
+      conversionWidth = UtilityManager.frameOfConversion.width
+      conversionHeight = UtilityManager.frameOfConversion.height
+      
+    } else
+    
+    if UIDevice.current.orientation == .landscapeLeft || UIDevice.current.orientation == .landscapeRight {
+      
+      print("UtilityManager.frameOfConversion.width = \(UtilityManager.frameOfConversion.width)")
+      print("UtilityManager.frameOfConversion.height = \(UtilityManager.frameOfConversion.height)")
+      
+      conversionWidth = UtilityManager.frameOfConversion.width
+      conversionHeight = UtilityManager.frameOfConversion.height
+        
+    }
     
   }
   

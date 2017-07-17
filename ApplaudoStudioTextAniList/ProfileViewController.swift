@@ -2,7 +2,7 @@
 //  ProfileViewController.swift
 //  ApplaudoStudioTextAniList
 //
-//  Created by Alejandro Aristi C on 03/06/17.
+//  Created by Israel Gutierrez on 03/06/17.
 //  Copyright © 2017 Israel Gutierrez. All rights reserved.
 //
 
